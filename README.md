@@ -8,3 +8,6 @@ multilingual. Suggestions and pull requests are welcome.  The language
 dependent parts are in a seperate file, I think it is self-explanatory
 how to add support for an additional language, but feel free to ask of
 course.
+
+Note: The LaTeX source is under MIT License, but the output is not;
+you can do whatever you want with the output.
