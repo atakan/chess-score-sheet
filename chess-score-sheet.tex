@@ -1,5 +1,5 @@
 \documentclass{letter}
-\usepackage[a5paper,twoside,margin=1cm,left=1.2cm,right=0.8cm]{geometry}
+\usepackage[a5paper,twoside,margin=1cm,left=1.2cm,right=0.8cm,top=1.3cm]{geometry}
 \usepackage{tabularx}
 \usepackage{graphicx} % Required for inserting images
 
@@ -9,10 +9,10 @@
 \newlength{\hrhh}
 \setlength{\hrhh}{0.175cm}
 \newlength{\rh}
-\setlength{\rh}{0.35cm}
+\setlength{\rh}{0.33cm}
 
-%\input{chess-score-sheet-turkce.tex}
-\input{chess-score-sheet-english.tex}
+\input{chess-score-sheet-turkce.tex}
+%\input{chess-score-sheet-english.tex}
 
 \title{satranç hamle kağıdı}
 \author{M. Atakan Gürkan}
@@ -22,9 +22,9 @@
 \includegraphics[width=0.1\textwidth]{saga-bakan-beyaz-at.png}
 {\footnotesize\slshape
 \begin{tabularx}{0.75\textwidth}{XXXX}\hline
-  \Tournament:  &~ &~ & \Date: \\[\rhh]\hline
-  \Round: & \Board: & \Section: &\TControl:\\[\rhh]\hline
-  \multicolumn{2}{l}{\White:}   &\multicolumn{2}{l}{\Black:}\\[\rhh]\hline
+  \Tournament  &~ &~ & \Section \\[\rhh]\hline
+  \Round & \Board & \Date &\TControl\\[\rhh]\hline
+  \multicolumn{2}{l}{\White}   &\multicolumn{2}{l}{\Black}\\[\rhh]\hline
 \end{tabularx}
 }
 \includegraphics[width=0.1\textwidth]{sola-bakan-siyah-at.png}
